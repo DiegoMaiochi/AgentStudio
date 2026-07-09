@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
 import Sidebar from "./components/Sidebar";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <Sidebar />
       </div>
       <div className="flex-1 flex items-center justify-center">
-        <Home />
+        <Dashboard />
       </div>
     </div>
   );
