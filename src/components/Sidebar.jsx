@@ -8,9 +8,9 @@ function Sidebar(){
             </div>
 
             <div className="mt-52 text-center">
-                <p className="p-2">Dashboard</p>
-                <p className="p-2">Projetos</p>
-                <p className="p-2">Features</p>
+                <p className="my-1 p-1 px-3 py-1 hover:bg-gray-500 hover:scale-110 transition duration-500 rounded-lg cursor-pointer">Dashboard</p>
+                <p className="my-1 p-1 px-3 py-1 hover:bg-gray-500 hover:scale-110 transition duration-500 rounded-lg cursor-pointer">Projetos</p>
+                <p className="my-1 p-1 px-3 py-1 hover:bg-gray-500 hover:scale-110 transition duration-500 rounded-lg cursor-pointer">Features</p>
             </div>
         </div>
     )
