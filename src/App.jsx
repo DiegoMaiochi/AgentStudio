@@ -11,7 +11,7 @@ function App() {
         <Sidebar />
       </div>
 
-      <div className="flex-1 flex items-center justify-center">
+      <div className="flex-1">
         <Routes>
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/projetos" element={<Projetos />} />

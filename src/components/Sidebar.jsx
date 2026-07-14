@@ -13,7 +13,7 @@ function Sidebar() {
             <div className="mt-52 flex flex-col items-center space-y-2">
                 <button
                     onClick={() => navigate("/Dashboard")}
-                    className="px-3 py-1 hover:scale-120 transition duration-200 rounded-lg cursor-pointer"
+                    className="px-3 py-1 hover:scale-120 transition duration-300 rounded-lg cursor-pointer"
                 >
                     Dashboard
                 </button>
